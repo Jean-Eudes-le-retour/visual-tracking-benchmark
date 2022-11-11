@@ -1,5 +1,13 @@
 FROM leoduggan/webots.cloud-anim-edit:latest
 
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install --upgrade pip && \
+    pip3 install --no-cache-dir \
+    opencv-python
+
 # Copy all the benchmark files into default PROJECT_PATH from Docker container
 ARG PROJECT_PATH
 RUN mkdir -p $PROJECT_PATH
