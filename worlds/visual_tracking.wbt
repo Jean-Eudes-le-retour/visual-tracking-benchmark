@@ -1,14 +1,14 @@
 #VRML_SIM R2022b utf8
 
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "webots://projects/robots/sony/aibo/protos/AiboErs7.proto"
-EXTERNPROTO "webots://projects/samples/robotbenchmark/visual_tracking/protos/VisualTrackingBenchmark.proto"
-EXTERNPROTO "webots://projects/objects/toys/protos/RubberDuck.proto"
-EXTERNPROTO "webots://projects/objects/balls/protos/SoccerBall.proto"
-EXTERNPROTO "webots://projects/objects/traffic/protos/TrafficCone.proto"
-EXTERNPROTO "webots://projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
-EXTERNPROTO "webots://projects/objects/trees/protos/Tree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/sony/aibo/protos/AiboErs7.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/samples/robotbenchmark/visual_tracking/protos/VisualTrackingBenchmark.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/toys/protos/RubberDuck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/balls/protos/SoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/Tree.proto"
 
 WorldInfo {
   info [
@@ -62,7 +62,7 @@ DEF GROUND Solid {
         baseColor 0.659998 0.624781 0.437797
         baseColorMap ImageTexture {
           url [
-            "webots://projects/default/worlds/textures/grass.jpg"
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/default/worlds/textures/grass.jpg"
           ]
         }
         roughness 1
@@ -115,7 +115,7 @@ Tree {
   name "tree(2)"
   scale 0.1 0.1 0.5
   texture [
-    "webots://projects/objects/trees/protos/textures/crab_apple_tree.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/textures/crab_apple_tree.png"
   ]
   isPickable FALSE
 }
@@ -125,7 +125,7 @@ Tree {
   name "tree(3)"
   scale 0.1 0.1 0.5
   texture [
-    "webots://projects/objects/trees/protos/textures/spruce.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/textures/spruce.png"
   ]
   isPickable FALSE
 }
@@ -135,7 +135,7 @@ Tree {
   name "tree(4)"
   scale 0.1 0.1 0.5
   texture [
-    "webots://projects/objects/trees/protos/textures/spruce.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/textures/spruce.png"
   ]
   isPickable FALSE
 }
@@ -145,7 +145,7 @@ Tree {
   name "tree(5)"
   scale 0.1 0.1 0.5
   texture [
-    "webots://projects/objects/trees/protos/textures/crab_apple_tree.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/textures/crab_apple_tree.png"
   ]
   isPickable FALSE
 }
@@ -195,7 +195,7 @@ DEF YELLOW_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/indicator.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/indicator.jpg"
                   ]
                 }
                 metalness 0
@@ -257,7 +257,7 @@ DEF YELLOW_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/indicator.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/indicator.jpg"
                   ]
                 }
                 metalness 0
@@ -319,7 +319,7 @@ DEF YELLOW_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/antifog.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/antifog.jpg"
                   ]
                 }
                 roughness 0.4
@@ -427,20 +427,20 @@ DEF YELLOW_CAR Transform {
                 baseColor 0.85 0.85 0.05
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
                   ]
                   filtering 5
                 }
                 roughnessMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_roughness.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_roughness.jpg"
                   ]
                   filtering 5
                 }
                 metalness 0
                 normalMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_normal.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_normal.jpg"
                   ]
                   filtering 5
                 }
@@ -534,7 +534,7 @@ DEF YELLOW_CAR Transform {
                   appearance DEF PLATE_APPEARANCE PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/textures/plate.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/plate.jpg"
                       ]
                     }
                     roughness 0.4
@@ -606,13 +606,13 @@ DEF YELLOW_CAR Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                       ]
                     }
                     roughness 0.1
                     normalMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                       ]
                     }
                     textureTransform TextureTransform {
@@ -646,13 +646,13 @@ DEF YELLOW_CAR Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                       ]
                     }
                     roughness 0.1
                     normalMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                       ]
                     }
                   }
@@ -716,13 +716,13 @@ DEF YELLOW_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -743,24 +743,24 @@ DEF YELLOW_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -850,13 +850,13 @@ DEF YELLOW_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -878,24 +878,24 @@ DEF YELLOW_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -985,13 +985,13 @@ DEF YELLOW_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -1012,24 +1012,24 @@ DEF YELLOW_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -1119,13 +1119,13 @@ DEF YELLOW_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -1147,24 +1147,24 @@ DEF YELLOW_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -1268,7 +1268,7 @@ DEF BLUE_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/indicator.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/indicator.jpg"
                   ]
                 }
                 metalness 0
@@ -1330,7 +1330,7 @@ DEF BLUE_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/indicator.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/indicator.jpg"
                   ]
                 }
                 metalness 0
@@ -1392,7 +1392,7 @@ DEF BLUE_CAR Transform {
               appearance PBRAppearance {
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/vehicles/protos/textures/antifog.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/antifog.jpg"
                   ]
                 }
                 roughness 0.4
@@ -1500,20 +1500,20 @@ DEF BLUE_CAR Transform {
                 baseColor 0.458824 0.705882 0.858824
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
                   ]
                   filtering 5
                 }
                 roughnessMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_roughness.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_roughness.jpg"
                   ]
                   filtering 5
                 }
                 metalness 0
                 normalMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_normal.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/glossy_car_paint/glossy_car_paint_normal.jpg"
                   ]
                   filtering 5
                 }
@@ -1607,7 +1607,7 @@ DEF BLUE_CAR Transform {
                   appearance DEF PLATE_APPEARANCE PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/textures/plate.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/textures/plate.jpg"
                       ]
                     }
                     roughness 0.4
@@ -1679,13 +1679,13 @@ DEF BLUE_CAR Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                       ]
                     }
                     roughness 0.1
                     normalMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                       ]
                     }
                     textureTransform TextureTransform {
@@ -1719,13 +1719,13 @@ DEF BLUE_CAR Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                       ]
                     }
                     roughness 0.1
                     normalMap ImageTexture {
                       url [
-                        "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                       ]
                     }
                   }
@@ -1789,13 +1789,13 @@ DEF BLUE_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -1816,24 +1816,24 @@ DEF BLUE_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -1923,13 +1923,13 @@ DEF BLUE_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -1951,24 +1951,24 @@ DEF BLUE_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2058,13 +2058,13 @@ DEF BLUE_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -2085,24 +2085,24 @@ DEF BLUE_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2192,13 +2192,13 @@ DEF BLUE_CAR Transform {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_base_color.png"
                               ]
                             }
                             roughness 0.1
                             normalMap ImageTexture {
                               url [
-                                "webots://projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/textures/citroen_logo_normal.jpg"
                               ]
                             }
                           }
@@ -2220,24 +2220,24 @@ DEF BLUE_CAR Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2341,13 +2341,13 @@ DEF BUS Transform {
                 baseColor 0.596674 0.0318151 0.0318151
                 baseColorMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/matte_car_paint/matte_car_paint_base_color.jpg"
                   ]
                   filtering 5
                 }
                 roughnessMap ImageTexture {
                   url [
-                    "webots://projects/appearances/protos/textures/matte_car_paint/matte_car_paint_roughness.jpg"
+                    "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/textures/matte_car_paint/matte_car_paint_roughness.jpg"
                   ]
                   filtering 5
                 }
@@ -2451,24 +2451,24 @@ DEF BUS Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2557,24 +2557,24 @@ DEF BUS Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2662,24 +2662,24 @@ DEF BUS Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
@@ -2767,24 +2767,24 @@ DEF BUS Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_base_color.jpg"
                           ]
                         }
                         roughness 0.8
                         roughnessMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_roughness.jpg"
                           ]
                         }
                         metalness 0
                         normalMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_normal.jpg"
                           ]
                         }
                         occlusionMap ImageTexture {
                           url [
-                            "webots://projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/abstract/GenericTireAppearance/textures/tire_texture_occlusion.jpg"
                           ]
                         }
                       }
