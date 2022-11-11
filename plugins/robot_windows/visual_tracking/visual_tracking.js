@@ -1,10 +1,25 @@
 import RobotWindow from 'https://cyberbotics.com/wwi/R2022b/RobotWindow.js';
-/* global sendBenchmarkRecord, showBenchmarkRecord, showBenchmarkError */
 
 window.robotWindow = new RobotWindow();
 const benchmarkName = 'Visual tracking';
 let hitRateString;
 let hitRate;
+
+const modal = document.querySelector(".modal");
+const closeButton = document.querySelector(".close-button");
+
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick); 
 
 window.robotWindow.receive = function(message, robot) {
   if (message.startsWith('hits:')) {

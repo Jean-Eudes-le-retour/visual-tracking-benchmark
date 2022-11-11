@@ -108,7 +108,7 @@ while robot.step(timestep) != -1:
                               targetPoint[1] - radius, size, size)
 
     # Send the camera image to the robot window.
-    # sendDeviceImage(robot, camera)
+    sendDeviceImage(robot, camera)
 
     # Get camera image.
     rawString = camera.getImage()
