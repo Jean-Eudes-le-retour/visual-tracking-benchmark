@@ -11,6 +11,10 @@ EXTERNPROTO "webots://projects/objects/factory/pallet/protos/WoodenPalletStack.p
 EXTERNPROTO "webots://projects/objects/trees/protos/Tree.proto"
 
 WorldInfo {
+  info [
+    "Benchmark objective: "
+    "Program an Aibo robot to move its head to track a rubber duck moving in a scattered environment."
+  ]
   title "Visual Tracking"
   window "visual_tracking"
 }
