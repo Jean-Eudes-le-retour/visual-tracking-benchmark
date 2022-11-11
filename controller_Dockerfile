@@ -12,4 +12,4 @@ ENV WEBOTS_CONTROLLER_URL=tcp://172.17.0.1:3005
 COPY . .
 
 # Entrypoint command to launch default Python controller script
-ENTRYPOINT ["python3", "controllers/edit_me/edit_me.py"]
+ENTRYPOINT ["python3", "controllers/visual_tracking/visual_tracking.py"]
