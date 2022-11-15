@@ -1,3 +1,4 @@
 *.pyc
 py_local_test.sh
 local_cmd.sh
+GUI_launch.sh

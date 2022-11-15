@@ -9,6 +9,7 @@ import math
 import numpy as np
 import os
 import sys
+import time
 
 def normalize(v):
     """Return normalized 3D vector v."""
@@ -176,6 +177,7 @@ robotHead = robot.getFromDef('HEAD_CAM')
 hitsCount = 0
 stepsCount = 0
 isRunning = True
+tic = time.perf_counter()
 # Main loop:
 # perform simulation steps until Webots is stopping the controller or
 # the target object trajectory is completed.
@@ -190,9 +192,9 @@ while robot.step(timestep) != -1 and isRunning:
     stepsCount += 1
     robot.wwiSendText("hits:%d/%d" % (hitsCount, stepsCount))
 
-    # print stepsCount every 10 steps
-    if stepsCount % 10 == 0:
-        print("Steps: %d" % stepsCount)
+    toc = time.perf_counter()
+    print(f"Elapsed time: {toc - tic:.2f} seconds")
+    tic = toc
 
     # Update target object position:
     # return if the whole trajectory has been completed.
