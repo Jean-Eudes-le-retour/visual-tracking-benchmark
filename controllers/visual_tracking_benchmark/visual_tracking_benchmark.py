@@ -190,8 +190,6 @@ while robot.step(timestep) != -1 and isRunning:
     # camera is looking at the target object direction.
     # Camera local orientation is [0, 0 -1], thus the global orientation is
     # R * [0, 0, -1], where R is the robot head global rotation matrix.
-    print("Start of step")
-    tic = _get_time_and_update_tic(tic)
     R = robotHead.getOrientation()
 
     hitsCount += target.hit(robotHead.getPosition(), [-R[2], -R[5], -R[8]],
