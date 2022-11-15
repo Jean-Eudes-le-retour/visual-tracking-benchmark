@@ -190,6 +190,10 @@ while robot.step(timestep) != -1 and isRunning:
     stepsCount += 1
     robot.wwiSendText("hits:%d/%d" % (hitsCount, stepsCount))
 
+    # print stepsCount every 10 steps
+    if stepsCount % 10 == 0:
+        print("Steps: %d" % stepsCount)
+
     # Update target object position:
     # return if the whole trajectory has been completed.
     isRunning = target.move(timestep)
@@ -205,18 +209,7 @@ robot.wwiSendText("stop")
 CI = os.environ.get("CI")
 if CI:
     print(f"performance_line:{hitRate}")
-
-# Wait for record message.
-timestep = int(robot.getBasicTimeStep())
-while robot.step(timestep) != -1:
-    message = robot.wwiReceiveText()
-    while message:
-        if message.startswith("record:"):
-            record = f"record:{hitRate}"
-            robot.wwiSendText(record)
-            break
-        elif message == "exit":
-            break
-        message = robot.wwiReceiveText()
+else:
+    print(f"Final hit rate: {hitRate:.2f}")
 
 robot.simulationSetMode(Supervisor.SIMULATION_MODE_PAUSE)
