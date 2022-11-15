@@ -193,20 +193,16 @@ while robot.step(timestep) != -1 and isRunning:
     print("Start of step")
     tic = _get_time_and_update_tic(tic)
     R = robotHead.getOrientation()
-    print("get orientation of robot head")
-    tic = _get_time_and_update_tic(tic)
+
     hitsCount += target.hit(robotHead.getPosition(), [-R[2], -R[5], -R[8]],
                             hitError)
     stepsCount += 1
-    print("Update hits count")
-    tic = _get_time_and_update_tic(tic)
+
     robot.wwiSendText("hits:%d/%d" % (hitsCount, stepsCount))
 
     # Update target object position:
     # return if the whole trajectory has been completed.
     isRunning = target.move(timestep)
-    print("Update target position")
-    tic = _get_time_and_update_tic(tic)
 
 # Compute final grade and exit
 if stepsCount == 0:
