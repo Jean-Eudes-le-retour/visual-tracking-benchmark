@@ -23,6 +23,10 @@ def dotProduct(v1, v2):
     n2 = normalize(v2)
     return n1[0] * n2[0] + n1[1] * n2[1] + n1[2] * n2[2]
 
+def _get_time_and_update_tic(tic):
+    toc = time.perf_counter()
+    print(f"Elapsed time: {toc - tic:.2f} seconds")
+    return toc
 
 class MovingTarget():
     """Class used to manage the move of the target object."""
@@ -186,19 +190,23 @@ while robot.step(timestep) != -1 and isRunning:
     # camera is looking at the target object direction.
     # Camera local orientation is [0, 0 -1], thus the global orientation is
     # R * [0, 0, -1], where R is the robot head global rotation matrix.
+    print("Start of step")
+    tic = _get_time_and_update_tic(tic)
     R = robotHead.getOrientation()
+    print("get orientation of robot head")
+    tic = _get_time_and_update_tic(tic)
     hitsCount += target.hit(robotHead.getPosition(), [-R[2], -R[5], -R[8]],
                             hitError)
     stepsCount += 1
+    print("Update hits count")
+    tic = _get_time_and_update_tic(tic)
     robot.wwiSendText("hits:%d/%d" % (hitsCount, stepsCount))
-
-    toc = time.perf_counter()
-    print(f"Elapsed time: {toc - tic:.2f} seconds")
-    tic = toc
 
     # Update target object position:
     # return if the whole trajectory has been completed.
     isRunning = target.move(timestep)
+    print("Update target position")
+    tic = _get_time_and_update_tic(tic)
 
 # Compute final grade and exit
 if stepsCount == 0:
