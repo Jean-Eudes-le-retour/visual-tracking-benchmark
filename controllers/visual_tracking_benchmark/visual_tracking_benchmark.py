@@ -212,7 +212,7 @@ robot.wwiSendText("stop")
 # Performance output used by automated CI script
 CI = os.environ.get("CI")
 if CI:
-    print(f"performance_line:{hitRate}")
+    print(f"performance:{hitRate}")
 else:
     print(f"Final hit rate: {hitRate:.2f}")
 
